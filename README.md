@@ -68,6 +68,11 @@ Yes, its a bit of a hack, but it works for me.
 
 Right now, I have a pitch black theme for everything, so simply maxing out the constrast is enough to make every website look uniform.
 
+### Custom Scripts
+I have a few custom scripts in here that I use to bridge some gaps in functionality.
+
+.gitattributes is used to make sure those bash scripts are set to be executable when cloned.
+
 ### Important:
 These dots where originally made for my personal use. Everything ***should*** work with minimal tweaks, but no garuntees. I run a dual screen laptop so some things may be specific to my setup. That being said, I tried to make everything universally applicable.
 
