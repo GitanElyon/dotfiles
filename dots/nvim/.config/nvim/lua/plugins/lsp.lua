@@ -2,9 +2,6 @@ return {
   "neovim/nvim-lspconfig",
   config = function()
 
-    vim.lsp.enable({ 'rust-analyzer'})
-
-
     -- Configure rust-analyzer
     vim.lsp.config('rust_analyzer', {
       settings = {
@@ -13,8 +10,9 @@ return {
           checkOnSave = { command = "clippy" },
         },
       },
-    })
+    }) 
 
+    vim.lsp.enable({ 'rust-analyzer' })
 
     -- Keybindings for LSP features
     vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to definition" })
