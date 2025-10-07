@@ -1,16 +1,20 @@
 return {
   "neovim/nvim-lspconfig",
   config = function()
+    local lspconfig = require("lspconfig")
 
     -- Configure rust-analyzer
-    vim.lsp.config('rust_analyzer', {
+    vim.lsp.config('rust-analyzer', {
+      cmd = { "rust-analyzer" },
+      root_markers = { "Cargo.toml" },
+      filetypes = { "rust" },
       settings = {
         ["rust-analyzer"] = {
           cargo = { allFeatures = true },
-          checkOnSave = { command = "clippy" },
+          checkOnSave = true,
         },
       },
-    }) 
+    })
 
     vim.lsp.enable({ 'rust-analyzer' })
 
