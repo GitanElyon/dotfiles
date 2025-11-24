@@ -13,6 +13,7 @@ This is my first rice, and I will be updating this frequently, so keep an eye ou
 Super + Return| terminal|
 Super + Space| launcher|
 Super + B | browser|
+Super + C | editor|
 
 ### Window management
 | Key | Action |
@@ -21,6 +22,15 @@ Super + Q | close window|
 Super + F | float window|
 Super + P | psudofloat window|
 Super + M | maximize window|
+Super + T | focus window|
+Super + H | move focus left|
+Super + L | move focus right|
+Super + K | move focus up|
+Super + J | move focus down|
+Super + Alt + H | move window left|
+Super + Alt + L | move window right|
+Super + Alt + K | move window up|
+Super + Alt + J | move window down|
 Super + left | resize window left|
 Super + right | resize window right|
 Super + up | resize window up|
@@ -29,6 +39,8 @@ Super + Alt + left | swap window left|
 Super + Alt + right | swap window right|
 Super + Alt + up | swap window up|
 Super + Alt + down | swap window down|
+Super + 1-0 | go to workspace #|
+Super + Alt + 1-0 | move window to workspace #|
 Super + Mouse1 | move window|
 Super + Mouse2 | resize window|
 
@@ -37,9 +49,15 @@ Super + Mouse2 | resize window|
 |-----|--------|
 Super + W | cycle wallpaper|
 Super + Alt + W | cycle wallpaper reverse|
-Super + L | lock screen|
+Super + Escape | lock screen|
 Super + R | reload Hyprland|
-Super + E | exit Hyprland|
+Super + Alt + E | exit Hyprland|
+
+### Misc
+| Key | Action |
+|-----|--------|
+Super + Print | screenshot|
+Super + Alt + Print | screengrab|
 
 
 ## INSTALLATION
