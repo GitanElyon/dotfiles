@@ -1,4 +1,7 @@
 # Hyprland dotfiles
+
+> Disclaimer: these are my old dots. I have retired them as of January 2026, though are still largely functional and a good base for new hyprland users.
+
 This dotfiles contains my configuration/themes for Hyprland as well as other apps I use for my daily workflow.
 
 I have tried to make everything beginer friendly, but if you have anyy questions, there are tons of resources out there to help you.
